@@ -523,7 +523,7 @@
 			"file": "Gemfile",
 			"settings":
 			{
-				"buffer_size": 1531,
+				"buffer_size": 1567,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -532,7 +532,7 @@
 			"file": "app/views/static_pages/home.html.erb",
 			"settings":
 			{
-				"buffer_size": 75,
+				"buffer_size": 85,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -541,16 +541,16 @@
 			"file": "app/controllers/static_pages_controller.rb",
 			"settings":
 			{
-				"buffer_size": 75,
+				"buffer_size": 587,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "config/database.yml",
+			"file": "app/views/static_pages/reports.html",
 			"settings":
 			{
-				"buffer_size": 769,
+				"buffer_size": 572,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -559,16 +559,8 @@
 			"file": "config/routes.rb",
 			"settings":
 			{
-				"buffer_size": 105,
+				"buffer_size": 148,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/gibil/Documents/Aptana Studio 3 Workspace/ccdata/config/routes.rb",
-			"settings":
-			{
-				"buffer_size": 6079,
 				"line_ending": "Unix"
 			}
 		}
@@ -646,6 +638,9 @@
 	},
 	"file_history":
 	[
+		"/Users/gibil/Documents/Aptana Studio 3 Workspace/ccdata/config/routes.rb",
+		"/Users/gibil/Documents/Aptana Studio 3 Workspace/intranet/config/database.yml",
+		"/Users/gibil/Documents/Aptana Studio 3 Workspace/intranet/Gemfile",
 		"/Users/gibil/Documents/Aptana Studio 3 Workspace/file_server/config/routes.rb",
 		"/Users/gibil/Documents/Aptana Studio 3 Workspace/file_server/config/database.yml",
 		"/Users/gibil/Documents/Aptana Studio 3 Workspace/file_server/Gemfile",
@@ -770,10 +765,7 @@
 		"/Users/gibil/cellar/github/openhealth/views/management/management_graph.xml",
 		"/Users/gibil/cellar/github/openhealth/models/export.py",
 		"/Users/gibil/cellar/github/openhealth/views/electronic/electronic_order.xml",
-		"/Users/gibil/cellar/github/openhealth/models/lib_exp.py",
-		"/Users/gibil/cellar/github/openhealth/views/report_sale/report_sale_product.xml",
-		"/Users/gibil/cellar/github/openhealth/models/ord_vars.py",
-		"/Users/gibil/cellar/github/openhealth/models/order.DEP.txt"
+		"/Users/gibil/cellar/github/openhealth/models/lib_exp.py"
 	],
 	"find":
 	{
@@ -808,7 +800,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -817,15 +809,71 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1531,
+						"buffer_size": 1567,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								43,
-								43
+								181,
+								181
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/views/static_pages/home.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 85,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								58,
+								58
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/controllers/static_pages_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 587,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								423,
+								423
 							]
 						],
 						"settings":
@@ -840,25 +888,26 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "app/views/static_pages/home.html.erb",
+					"buffer": 3,
+					"file": "app/views/static_pages/reports.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 75,
+						"buffer_size": 572,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								75,
-								75
+								357,
+								357
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -868,76 +917,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "app/controllers/static_pages_controller.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 75,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								71,
-								71
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "config/database.yml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 769,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								725,
-								725
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/YAML/YAML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
 					"buffer": 4,
 					"file": "config/routes.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 105,
+						"buffer_size": 148,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								100,
-								100
+								141,
+								141
 							]
 						],
 						"settings":
@@ -945,35 +938,6 @@
 							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/Users/gibil/Documents/Aptana Studio 3 Workspace/ccdata/config/routes.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6079,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
-							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1208,7 +1172,7 @@
 		[
 			[
 				"",
-				"~/cellar/github/rails/cctester/Cc-Tester.sublime-project"
+				"~/Documents/Aptana Studio 3 Workspace/templates/dfirm/dfirm/interamericana.sublime-project"
 			],
 			[
 				"\t",

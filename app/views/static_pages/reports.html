@@ -1,3 +1,21 @@
 
 
-<h1>Reports</h1>
+<h1>Reportes</h1>
+
+
+		<%#= image_tag( pic.url , :width => 1440, :height => 317, :alt => '', :class => "img-responsive  img-repo" ) %>
+		<%#= link_to image_path("image.jpg", :rel=>"lightbox", :title=>"my caption") do %>
+		<%#= cl_image_tag("Chavarri/fig_pie_year_2018.png") %>
+
+
+
+	<div class='row'>
+			<%= image_tag( @pic_url_1, :title=>"my caption") %>
+			<%= image_tag( @pic_url_2) %>
+	</div>
+
+	<div class='row'>		
+		<%= image_tag( @pic_url_3 ) %>
+
+		<%= image_tag( @pic_url_4 ) %>
+	</div>
