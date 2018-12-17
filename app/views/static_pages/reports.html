@@ -1,6 +1,27 @@
+<style>
+	
+	.container{
+		margin-bottom: 50px;
+		margin-left: 1%	!important;
+	}
+
+/*
+	.img-repo{
+		height:317; 
+		width:300px; 
+	}
+*/		
+</style>
 
 
-<h1>Reportes</h1>
+
+
+
+<h4>
+	<%= link_to  "Intranet", root_path %>
+</h4>
+
+<h1>Ventas 2018</h1>
 
 
 		<%#= image_tag( pic.url , :width => 1440, :height => 317, :alt => '', :class => "img-responsive  img-repo" ) %>
@@ -9,13 +30,34 @@
 
 
 
+
+<br/>
+<section id="year" class="text-center">
+<div class="container">   
+
+<h1>Acumulado Anual</h1>
+
 	<div class='row'>
 			<%= image_tag( @pic_url_1, :title=>"my caption") %>
+
 			<%= image_tag( @pic_url_2) %>
 	</div>
+
+</div>
+</section>
+
+
+
+
+<section id="year" class="text-center">
+<div class="container">   
+<h1>Mensual</h1>
 
 	<div class='row'>		
 		<%= image_tag( @pic_url_3 ) %>
 
 		<%= image_tag( @pic_url_4 ) %>
 	</div>
+	
+</div>
+</section>

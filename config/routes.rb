@@ -5,4 +5,6 @@ Rails.application.routes.draw do
 
   get 'reports' => 'static_pages#reports'
 
+  get 'documents' => 'static_pages#documents'
+
 end

@@ -538,19 +538,19 @@
 			}
 		},
 		{
-			"file": "app/controllers/static_pages_controller.rb",
+			"file": "app/views/static_pages/reports.html",
 			"settings":
 			{
-				"buffer_size": 587,
+				"buffer_size": 870,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/views/static_pages/reports.html",
+			"file": "app/controllers/static_pages_controller.rb",
 			"settings":
 			{
-				"buffer_size": 572,
+				"buffer_size": 920,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -800,7 +800,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -844,8 +844,8 @@
 						"selection":
 						[
 							[
-								58,
-								58
+								77,
+								77
 							]
 						],
 						"settings":
@@ -856,24 +856,53 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "app/controllers/static_pages_controller.rb",
+					"file": "app/views/static_pages/reports.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 587,
+						"buffer_size": 870,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								423,
-								423
+								78,
+								78
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 149.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/controllers/static_pages_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 920,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								873,
+								873
 							]
 						],
 						"settings":
@@ -884,36 +913,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "app/views/static_pages/reports.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 572,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								357,
-								357
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{

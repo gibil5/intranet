@@ -3,6 +3,11 @@ class StaticPagesController < ApplicationController
   def home
   end
 
+
+  def documents
+  end
+
+
   def reports
 
   	# Urls
