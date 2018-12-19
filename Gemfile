@@ -20,9 +20,9 @@ gem 'rails', '4.2.1'
 
 
 # Use sqlite3 as the database for Active Record
-#gem 'sqlite3'
+gem 'sqlite3'
 #gem 'pg', '~> 0.20'
-gem 'pg'
+#gem 'pg'
 
 
 
